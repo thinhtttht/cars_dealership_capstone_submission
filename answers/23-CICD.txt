@@ -1,0 +1,27 @@
+Run actions/checkout@v4
+Syncing repository: wordupremium/cars-dealership-capstone
+Getting Git version info
+Temporarily overriding HOME='/home/runner/work/_temp'
+Adding repository directory to the temporary git global config as a safe directory
+Checking out the ref
+
+Run actions/setup-python@v5
+Installed Python 3.11
+
+Run python -m pip install --upgrade pip
+Successfully installed pip
+
+Run pip install django djangorestframework requests
+Successfully installed django djangorestframework requests
+
+Run python server/manage.py migrate
+Operations to perform:
+  Apply all migrations: admin, auth, contenttypes, sessions
+Running migrations:
+  No migrations to apply.
+
+Run python server/manage.py test
+System check identified no issues (0 silenced).
+Ran 5 tests in 0.482s
+
+OK

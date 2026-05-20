@@ -1,0 +1,3 @@
+$ curl http://127.0.0.1:8000/djangoapp/get_dealers/
+
+{"dealers":[{"id":1,"full_name":"Best Cars Kansas City","city":"Kansas City","state":"Kansas"},{"id":2,"full_name":"Best Cars New York","city":"New York","state":"New York"},{"id":3,"full_name":"Best Cars Dallas","city":"Dallas","state":"Texas"}]}
